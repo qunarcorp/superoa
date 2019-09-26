@@ -1,0 +1,44 @@
+${AnsiColor.BRIGHT_YELLOW}
+                               [{+?]
+                              ~++++{.
+           !{{{{[}}{{{{{_.   .{++++{   {{}{
+         {++++++{++++++?}]++?{{_++{  -{++++}
+        {+rr+r\+{+++++{$$ +++++++[{<<+++++{
+        }++++++{+++++++{<{}+{$k {+++++}}{^
+        }{++[{++++++++++++++{   _++++++++{,
+          {++++++++++++++++++]}?+++++++++++{
+            {{++++++++++++++++++++++++++++++}
+               {{+++++++++++++++++++++++_++++{
+                 {+++++++++++++++++++}}}}}}}++I
+                {+++++++++++++++++++[}}}}}}}_+{
+               []++vY+++++++++++++++}}}}}}}}++{
+               {++++X$X|+++++++++++++}}}}}[+++{
+               {_++++X%$$qXXv\|XXX)++++++++++-^
+         .     :{++++++XX$$$$$qXv++++++++++++{
+                l-++++++++++++++++++++++++++{
+                 I{++++++++++++++++++++++++{
+                  C0{}++++++++++++++++++-{0C
+                 COOOOO0{{[+++++++++_{{0OOO0C
+                COOOOOOOOOOOOOOUCOOOOOOOOOOOOn<<<"
+            "<<CLOOOOOOOOOOOOOOOOOOOOOOOOOOOOC   ;<<<<<<
+          <<<. COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC     <<<<
+       !<<.   COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOCz
+      <;!>    COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC
+             {QOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL   '
+             COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOY"< <
+             COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC<<<<<<`
+            'COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC
+            [COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC
+            ]CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                       <<             ^<^
+                       <<             ^<^
+                       <<             ^<^
+                 $$$$$$$$>      O$$$$$$$z
+
+                     社会人专用服务器
+
+                     www.qunar.com
+${AnsiColor.BLUE}
+                spring boot: ${spring-boot.version}${application.version}${application.formatted-version}${application.formatted-version}
+${AnsiColor.BRIGHT_RED}
+             佩奇保佑       永不宕机     永无BUG

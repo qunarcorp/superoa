@@ -1,0 +1,28 @@
+${AnsiColor.BRIGHT_YELLOW}
+
+            $$$$$$$$$$$$$$$       $$$$$$$$$$$$$$$%.
+         &$               &$    =$                $
+         $                 $$$$$$=                @&
+      B=$$                 $$$$$$                  $$&=
+      $$$$      +1s        $$&-$$       +1s        $$$
+      $$$$                 $-   $                  $$$
+         $                 $    $                  .B
+         $                 @    $                 .=
+          $                $     $                %
+           $            =$         =$            @&
+            #$$$$$$$$$%              -@$$$$$$$$B
+
+                      莫生        莫生
+                       气         气
+
+                       代码辣鸡非我意,
+                       自己动手分田地;
+                       你若气死谁如意?
+                       谈笑风生活长命.
+
+                     Powered by IS团队`
+
+${AnsiColor.BLUE}
+                spring boot: ${spring-boot.version}${application.version}${application.formatted-version}${application.formatted-version}
+${AnsiColor.BRIGHT_RED}
+             佩奇保佑       永不宕机     永无BUG

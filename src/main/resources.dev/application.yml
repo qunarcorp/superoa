@@ -1,0 +1,125 @@
+# 基本参数
+isSendEmail: false
+isSendQtalk: false
+
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 10480Mb
+      maxRequestSize: 20480Mb
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/html/
+  profiles:
+    active: beta
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  activiti:
+    check-process-definitions: false
+    # 启用历史记录表
+    history-level: audit
+    database-schema-update: true
+    db-history-used: true
+  mvc:
+    view:
+      prefix: /static/
+      suffix: .html
+  banner:
+    location: classpath:banner2.txt
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ejabberd
+    password: 123456
+    url: jdbc:postgresql://127.0.0.1:5432/ejabberd
+
+  jpa:
+    hibernate:
+      show-sql: true
+      ddl-auto: update
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+  mail:
+    host: mail.host
+    username:
+    properties:
+      mail.smtp.auth: false
+      mail.smtp.starttls.enable: false
+    port: 25
+    password:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  session:
+    store-type: redis
+
+# 运维监控配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: P7D
+
+api:
+  starTalk: http://127.0.0.1:8081/im_http_service/
+  isapi:
+    qunaroa: http://127.0.0.1:8080/
+    qtalkoa: http://127.0.0.1:8080/
+  qtalk:
+    qt:
+    corp:
+  qunarit:
+  opsapp:
+  property:
+    sessiontimeout: 86400
+
+minio:
+  url: http://127.0.0.1:9000
+  accessKey: 123456
+  secretKey: 123456
+  bucketName: minio
+
+### xxl-job admin address list, such as "http://address" or "http://address01,http://address02"
+xxl:
+  job:
+    admin:
+      # 调度中心部署跟地址：如调度中心集群部署存在多个地址则用逗号分隔。执行器将会使用该地址进行"执行器心跳注册"和"任务结果回调"。
+      addresses: http://localhost:8080
+    #      addresses: http://localhost:8080
+    ### xxl-job executor address
+    executor:
+      # 执行器"AppName"和地址信息配置：AppName执行器心跳注册分组依据；地址信息用于"调度中心请求并触发任务"和"执行器注册"。执行器默认端口为9999，执行器IP默认为空表示自动获取IP，多网卡时可手动设置指定IP，该IP不会绑定Host仅作为通讯实用。单机部署多个执行器时，注意要配置不同执行器端口；
+      appname: qunar-oa
+      ip:
+      port: 10086
+      # xxl.job.executor.logpath=/data/applogs/xxl-job/jobhandler 执行器运行日志文件存储的磁盘位置，需要对该路径拥有读写权限
+      logpath: ./
+      # 执行器Log文件定期清理功能，指定日志保存天数，日志文件过期自动删除。限制至少保持3天，否则功能不生效；
+      logretentiondays: -1
+    ### xxl-job, access token 执行器通讯TOKEN，非空时启用
+    accessToken:
+
+# qtalk拉人进群配置
+qtalk:
+  muc:
+    muc_domain:
+    muc_id:
+    muc_owner:
+    system:
