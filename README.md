@@ -2,7 +2,7 @@
 ### **OA**:
 ### *接口文档-推荐*:(http://{ip}:{端口}/doc.html)
 ### *接口文档*:(http://{ip}:{端口}/swagger-ui.html)
-### 1. 前端打包 - Linux
+### 1. 前端打包
 *ps:后端代码中已有打包好的前端js包，若未修改前端代码，可跳过此打包步骤*  
 
 1. 打开控制台，安装node
@@ -10,7 +10,7 @@
 3. 控制台进入前端代码根目录，执行ykit p -mc
 4. 将打包好的prd文件夹下的lib@dev.js、manifest@dev.js、index@VERSION.js、login@VERSION.js复制到后段代码静态资源下的lib.js文件夹中,并修改templates文件下的index.html的scripts引用  
 
-### 2. 后端部署 - Linux
+### 2. 后端部署
 #### 2.1 存储容器minio部署及配置
 *ps:minio作为系统存储容器，用来存储用户上传的文件*
 ##### 2.1.1 minio服务器安装并启动
